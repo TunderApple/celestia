@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "celestia:star_dust" }
+  },
+  "result": {
+    "id": "celestia:star_shard",
+    "count": 1
+  }
+}

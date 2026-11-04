@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "celestia:star_shard_block"
+    }
+  ],
+  "result": {
+    "id": "celestia:star_shard",
+    "count": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FAD",
+    "AHA",
+    "DAF"
+  ],
+  "key": {
+    "F": { "item": "celestia:pegasus_feather" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "D": { "item": "minecraft:dragon_breath" },
+    "H": { "item": "celestia:unicorn_horn" }
+  },
+  "result": {
+    "id": "celestia:everys",
+    "count": 1
+  }
+}

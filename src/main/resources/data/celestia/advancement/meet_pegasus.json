@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "celestia:icon_pegasus"
+    },
+    "title": {
+      "text": "하늘을 질주하는 말"
+    },
+    "description": {
+      "text": "페가수스를 조우"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meet": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "celestia:end_highlands"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "celestia:icon_stellive"
+    },
+    "title": {
+      "text": "StelLive"
+    },
+    "description": {
+      "text": "파스텔 모험의 시작"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "celestia:textures/gui/advancements/backgrounds/starry.png"
+  },
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

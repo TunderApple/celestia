@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "celestia:block/bloom_stem"
+    },
+    "axis=x": {
+      "model": "celestia:block/bloom_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "celestia:block/bloom_stem",
+      "x": 90
+    }
+  }
+}

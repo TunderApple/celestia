@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "celestia:star_shard_ore",
+    "celestia:star_shard_block",
+    "celestia:twilight_stone",
+    "celestia:star_crystal_block",
+    "celestia:star_crystal"
+  ]
+}

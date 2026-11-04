@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "celestia:star_shard"
+    },
+    "title": {
+      "text": "별들의 안식처"
+    },
+    "description": {
+      "text": "별의 농장에 입장하세요"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "celestia:root"
+}

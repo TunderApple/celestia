@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "celestia:block/star_shard_ore"
+    }
+  }
+}

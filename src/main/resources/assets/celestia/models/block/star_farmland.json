@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "celestia:block/star_farmland_top",
+    "side": "celestia:block/night_soil",
+    "bottom": "celestia:block/night_soil"
+  }
+}

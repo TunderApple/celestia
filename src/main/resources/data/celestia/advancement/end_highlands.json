@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "celestia:icon_end_highlands"
+    },
+    "title": {
+      "text": "별을 찾아서"
+    },
+    "description": {
+      "text": "엔드 고지대에 입장하기"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:end_highlands"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "celestia:root"
+}

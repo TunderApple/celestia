@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "celestia",
+  "version": "${version}",
+  "name": "Celestia",
+  "description": "Unicorns, pegasi, star shards and the Star Farm caves.",
+  "authors": [],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.celestia.CelestiaMod"
+    ],
+    "client": [
+      "com.celestia.client.CelestiaClient"
+    ],
+    "terrablender": [
+      "com.celestia.world.CelestiaTerraBlender"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "terrablender": "*"
+  }
+}

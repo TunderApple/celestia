@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "celestia:star_shard"
+    }
+  },
+  "result": {
+    "id": "celestia:star_shard_block",
+    "count": 1
+  }
+}

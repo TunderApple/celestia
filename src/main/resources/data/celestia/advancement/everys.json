@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "celestia:everys"
+    },
+    "title": {
+      "text": "Everys"
+    },
+    "description": {
+      "text": "새로운 만남을 준비하기"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "celestia:everys"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "celestia:star_farm"
+}

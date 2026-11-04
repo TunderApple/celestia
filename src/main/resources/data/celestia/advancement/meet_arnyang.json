@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "celestia:icon_arnyang"
+    },
+    "title": {
+      "text": "뭘뽀노?"
+    },
+    "description": {
+      "text": "아르냥을 조우하기"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meet": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "celestia:star_farm"
+}
