@@ -39,15 +39,15 @@ public final class ModEntities {
         FabricDefaultAttributeRegistry.register(UNICORN, AbstractHorseEntity.createBaseHorseAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 30.0)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.3)
-                .add(EntityAttributes.HORSE_JUMP_STRENGTH, 0.9));
+                .add(EntityAttributes.GENERIC_JUMP_STRENGTH, 0.9));
         FabricDefaultAttributeRegistry.register(PEGASUS, AbstractHorseEntity.createBaseHorseAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 30.0)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.28)
-                .add(EntityAttributes.HORSE_JUMP_STRENGTH, 0.8));
+                .add(EntityAttributes.GENERIC_JUMP_STRENGTH, 0.8));
         FabricDefaultAttributeRegistry.register(ALICORN, AbstractHorseEntity.createBaseHorseAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 40.0)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.32)
-                .add(EntityAttributes.HORSE_JUMP_STRENGTH, 0.95));
+                .add(EntityAttributes.GENERIC_JUMP_STRENGTH, 0.95));
     }
 
     private ModEntities() {
