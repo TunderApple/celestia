@@ -32,5 +32,10 @@
   "block.celestia.starlight": "Starlight",
   "item.celestia.star_fruit": "Star Fruit",
   "item.celestia.starlight_bucket": "Starlight Bucket",
-  "biome.celestia.star_farm": "Star Farm"
+  "biome.celestia.star_farm": "Star Farm",
+  "itemGroup.celestia": "Celestia",
+  "item.celestia.unicorn_spawn_egg": "Unicorn Spawn Egg",
+  "item.celestia.pegasus_spawn_egg": "Pegasus Spawn Egg",
+  "item.celestia.alicorn_spawn_egg": "Alicorn Spawn Egg",
+  "item.celestia.arnyang_spawn_egg": "Arnyang Spawn Egg"
 }

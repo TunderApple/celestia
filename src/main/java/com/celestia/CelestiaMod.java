@@ -2,6 +2,8 @@ package com.celestia;
 
 import com.celestia.advancement.ModAdvancements;
 import com.celestia.block.ModBlocks;
+import com.celestia.command.ModCommands;
+import com.celestia.item.ModItemGroup;
 import com.celestia.fluid.ModFluids;
 import com.celestia.entity.ModEntities;
 import com.celestia.item.ModItems;
@@ -20,6 +22,8 @@ public class CelestiaMod implements ModInitializer {
         ModBlocks.init();
         ModItems.init();
         ModEntities.init();
+        ModItemGroup.init();
+        ModCommands.init();
         ModSpawns.init();
         ModWorldGen.init();
         ModNetworking.init();

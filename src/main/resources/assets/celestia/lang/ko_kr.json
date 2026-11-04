@@ -32,5 +32,10 @@
   "block.celestia.starlight": "별빛",
   "item.celestia.star_fruit": "별열매",
   "item.celestia.starlight_bucket": "별빛 양동이",
-  "biome.celestia.star_farm": "Star Farm"
+  "biome.celestia.star_farm": "Star Farm",
+  "itemGroup.celestia": "Celestia",
+  "item.celestia.unicorn_spawn_egg": "유니콘 생성 알",
+  "item.celestia.pegasus_spawn_egg": "페가수스 생성 알",
+  "item.celestia.alicorn_spawn_egg": "알리콘 생성 알",
+  "item.celestia.arnyang_spawn_egg": "아르냥 생성 알"
 }
