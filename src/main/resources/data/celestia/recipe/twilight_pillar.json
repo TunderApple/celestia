@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "celestia:twilight_bricks"
+    }
+  },
+  "result": {
+    "id": "celestia:twilight_pillar",
+    "count": 2
+  }
+}

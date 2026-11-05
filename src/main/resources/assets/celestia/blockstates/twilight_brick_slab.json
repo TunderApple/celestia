@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "celestia:block/twilight_brick_slab"
+    },
+    "type=top": {
+      "model": "celestia:block/twilight_brick_slab_top"
+    },
+    "type=double": {
+      "model": "celestia:block/twilight_bricks"
+    }
+  }
+}

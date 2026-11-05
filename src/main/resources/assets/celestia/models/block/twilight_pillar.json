@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "celestia:block/twilight_pillar_top",
+    "side": "celestia:block/twilight_pillar_side"
+  }
+}

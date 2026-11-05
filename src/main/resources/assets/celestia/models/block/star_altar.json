@@ -1,8 +1,195 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "minecraft:block/block",
   "textures": {
+    "particle": "celestia:block/star_altar_side",
     "top": "celestia:block/star_altar_top",
     "side": "celestia:block/star_altar_side",
-    "bottom": "celestia:block/twilight_bricks"
-  }
+    "gild": "celestia:block/gilded_twilight_bricks",
+    "base": "celestia:block/chiseled_twilight_bricks",
+    "col": "celestia:block/twilight_pillar_side",
+    "colt": "celestia:block/twilight_pillar_top",
+    "cry": "celestia:block/star_crystal_block"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#base"
+        },
+        "down": {
+          "texture": "#base"
+        },
+        "north": {
+          "texture": "#gild",
+          "uv": [
+            0,
+            6,
+            16,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#gild",
+          "uv": [
+            0,
+            6,
+            16,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#gild",
+          "uv": [
+            0,
+            6,
+            16,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#gild",
+          "uv": [
+            0,
+            6,
+            16,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        4,
+        3
+      ],
+      "to": [
+        13,
+        10,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#col"
+        },
+        "south": {
+          "texture": "#col"
+        },
+        "east": {
+          "texture": "#col"
+        },
+        "west": {
+          "texture": "#col"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        10,
+        1
+      ],
+      "to": [
+        15,
+        14,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#colt"
+        },
+        "north": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#side",
+          "uv": [
+            0,
+            0,
+            16,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        15,
+        6.5
+      ],
+      "to": [
+        9.5,
+        19,
+        9.5
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          17,
+          8
+        ]
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#cry"
+        },
+        "south": {
+          "texture": "#cry"
+        },
+        "east": {
+          "texture": "#cry"
+        },
+        "west": {
+          "texture": "#cry"
+        },
+        "up": {
+          "texture": "#cry"
+        },
+        "down": {
+          "texture": "#cry"
+        }
+      }
+    }
+  ]
 }

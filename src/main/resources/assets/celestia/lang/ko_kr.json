@@ -39,5 +39,11 @@
   "item.celestia.alicorn_spawn_egg": "알리콘 생성 알",
   "item.celestia.arnyang_spawn_egg": "아르냥 생성 알",
   "block.celestia.twilight_bricks": "황혼석 벽돌",
-  "block.celestia.star_altar": "별의 제단"
+  "block.celestia.star_altar": "별의 제단",
+  "block.celestia.cracked_twilight_bricks": "금 간 황혼석 벽돌",
+  "block.celestia.chiseled_twilight_bricks": "조각된 황혼석 벽돌",
+  "block.celestia.gilded_twilight_bricks": "금박 황혼석 벽돌",
+  "block.celestia.twilight_pillar": "황혼석 기둥",
+  "block.celestia.twilight_brick_stairs": "황혼석 벽돌 계단",
+  "block.celestia.twilight_brick_slab": "황혼석 벽돌 반 블록"
 }

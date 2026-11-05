@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "celestia:twilight_brick_slab"
+    }
+  },
+  "result": {
+    "id": "celestia:chiseled_twilight_bricks",
+    "count": 1
+  }
+}

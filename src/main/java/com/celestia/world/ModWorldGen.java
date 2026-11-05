@@ -17,8 +17,8 @@ public final class ModWorldGen {
     public static final Feature<DefaultFeatureConfig> STAR_FARM_DECOR = Registry.register(Registries.FEATURE,
             Identifier.of("celestia", "star_farm_decor"), new StarFarmDecorFeature(DefaultFeatureConfig.CODEC));
 
-    public static final Feature<DefaultFeatureConfig> STAR_TOWER = Registry.register(Registries.FEATURE,
-            Identifier.of("celestia", "star_tower"), new StarTowerFeature(DefaultFeatureConfig.CODEC));
+    public static final Feature<DefaultFeatureConfig> STAR_SPIRE = Registry.register(Registries.FEATURE,
+            Identifier.of("celestia", "star_spire"), new StarSpireFeature(DefaultFeatureConfig.CODEC));
 
     public static final RegistryKey<PlacedFeature> STAR_SHARD_ORE_END =
             RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("celestia", "star_shard_ore_end"));

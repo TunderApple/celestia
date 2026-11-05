@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "celestia:block/twilight_pillar"
+    },
+    "axis=x": {
+      "model": "celestia:block/twilight_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "celestia:block/twilight_pillar",
+      "x": 90
+    }
+  }
+}

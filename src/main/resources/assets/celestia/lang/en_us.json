@@ -39,5 +39,11 @@
   "item.celestia.alicorn_spawn_egg": "Alicorn Spawn Egg",
   "item.celestia.arnyang_spawn_egg": "Arnyang Spawn Egg",
   "block.celestia.twilight_bricks": "Twilight Bricks",
-  "block.celestia.star_altar": "Star Altar"
+  "block.celestia.star_altar": "Star Altar",
+  "block.celestia.cracked_twilight_bricks": "Cracked Twilight Bricks",
+  "block.celestia.chiseled_twilight_bricks": "Chiseled Twilight Bricks",
+  "block.celestia.gilded_twilight_bricks": "Gilded Twilight Bricks",
+  "block.celestia.twilight_pillar": "Twilight Pillar",
+  "block.celestia.twilight_brick_stairs": "Twilight Brick Stairs",
+  "block.celestia.twilight_brick_slab": "Twilight Brick Slab"
 }

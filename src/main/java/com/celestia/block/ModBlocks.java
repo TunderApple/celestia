@@ -9,6 +9,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.FluidBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.PillarBlock;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -43,9 +45,18 @@ public final class ModBlocks {
 
     public static final Block TWILIGHT_BRICKS = register("twilight_bricks", new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS)
             .mapColor(MapColor.BLUE)));
+    public static final Block CRACKED_TWILIGHT_BRICKS = register("cracked_twilight_bricks", new Block(AbstractBlock.Settings.copy(TWILIGHT_BRICKS)));
+    public static final Block CHISELED_TWILIGHT_BRICKS = register("chiseled_twilight_bricks", new Block(AbstractBlock.Settings.copy(TWILIGHT_BRICKS)));
+    public static final Block GILDED_TWILIGHT_BRICKS = register("gilded_twilight_bricks", new Block(AbstractBlock.Settings.copy(TWILIGHT_BRICKS)
+            .mapColor(MapColor.GOLD)));
+    public static final Block TWILIGHT_PILLAR = register("twilight_pillar", new PillarBlock(AbstractBlock.Settings.copy(TWILIGHT_BRICKS)));
+    public static final Block TWILIGHT_BRICK_STAIRS = register("twilight_brick_stairs",
+            new StairsBlock(TWILIGHT_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(TWILIGHT_BRICKS)));
+    public static final Block TWILIGHT_BRICK_SLAB = register("twilight_brick_slab", new SlabBlock(AbstractBlock.Settings.copy(TWILIGHT_BRICKS)));
+
     /** Star Altar: heart of the Star Tower. Glows; very hard to break. */
-    public static final Block STAR_ALTAR = register("star_altar", new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS)
-            .mapColor(MapColor.PURPLE).strength(50.0f, 1200.0f).luminance(s -> 12)));
+    public static final Block STAR_ALTAR = register("star_altar", new StarAltarBlock(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS)
+            .mapColor(MapColor.PURPLE).strength(50.0f, 1200.0f).luminance(s -> 12).nonOpaque()));
 
     // ---------------------------------------------------------------- Star Farm plants
     public static final Block BLOOM_STEM = register("bloom_stem", new PillarBlock(AbstractBlock.Settings.copy(Blocks.MUSHROOM_STEM)

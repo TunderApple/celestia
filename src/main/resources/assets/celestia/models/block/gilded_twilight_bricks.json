@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "celestia:block/gilded_twilight_bricks"
+  }
+}

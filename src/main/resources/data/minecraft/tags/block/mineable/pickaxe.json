@@ -7,6 +7,12 @@
     "celestia:star_crystal_block",
     "celestia:star_crystal",
     "celestia:twilight_bricks",
-    "celestia:star_altar"
+    "celestia:star_altar",
+    "celestia:cracked_twilight_bricks",
+    "celestia:chiseled_twilight_bricks",
+    "celestia:gilded_twilight_bricks",
+    "celestia:twilight_pillar",
+    "celestia:twilight_brick_stairs",
+    "celestia:twilight_brick_slab"
   ]
 }

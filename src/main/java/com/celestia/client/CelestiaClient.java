@@ -51,7 +51,7 @@ public class CelestiaClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.ARNYANG, CelestialHorseRenderers.Arnyang::new);
 
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
-                ModBlocks.STAR_SPROUT, ModBlocks.STAR_VINE, ModBlocks.STAR_FRUIT_BLOCK, ModBlocks.STAR_CRYSTAL);
+                ModBlocks.STAR_SPROUT, ModBlocks.STAR_VINE, ModBlocks.STAR_FRUIT_BLOCK, ModBlocks.STAR_CRYSTAL, ModBlocks.STAR_ALTAR);
         // Starlight: vanilla water textures tinted lavender
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_STARLIGHT, ModFluids.FLOWING_STARLIGHT,
                 new SimpleFluidRenderHandler(Identifier.of("minecraft", "block/water_still"),
