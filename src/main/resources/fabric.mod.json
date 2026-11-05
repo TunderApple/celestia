@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "celestia",
   "version": "${version}",
-  "name": "Celestia",
-  "description": "Unicorns, pegasi, star shards and the Star Farm caves.",
+  "name": "StelLive",
+  "description": "StelLive: 유니콘, 페가수스, 알리콘, 아르냥, 별조각과 별의 농장 동굴.",
   "authors": [],
   "environment": "*",
   "entrypoints": {
