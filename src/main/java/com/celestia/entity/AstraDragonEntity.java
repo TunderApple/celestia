@@ -34,7 +34,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 /**
- * Astra, the Violet Star Dragon. Summoned at the Star Altar with Everys.
+ * Huya, the Violet Star Dragon. Summoned at the Star Altar with Everys.
  * Flies (passes through blocks like the Ender Dragon) and circles its altar, then attacks:
  *  - BREATH: hovers, opens its jaw and spits purple dragon-breath fireballs
  *  - DIVE:   charges straight at a player, hitting everything it touches

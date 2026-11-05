@@ -46,9 +46,9 @@
   "block.celestia.twilight_pillar": "황혼석 기둥",
   "block.celestia.twilight_brick_stairs": "황혼석 벽돌 계단",
   "block.celestia.twilight_brick_slab": "황혼석 벽돌 반 블록",
-  "entity.celestia.astra_dragon": "보랏빛 별의 용 아스트라",
-  "item.celestia.astra_dragon_spawn_egg": "아스트라 생성 알",
-  "item.celestia.astra_scale": "아스트라의 별비늘",
+  "entity.celestia.astra_dragon": "보랏빛 별의 용 후야",
+  "item.celestia.astra_dragon_spawn_egg": "후야 생성 알",
+  "item.celestia.astra_scale": "후야의 별비늘",
   "ritual.celestia.start": "제단이 Everys에 응답한다... 별들이 모여든다",
   "ritual.celestia.awaken": "보랏빛 별의 용이 깨어났다!",
   "ritual.celestia.busy": "제단이 아직 별빛으로 가득하다"
