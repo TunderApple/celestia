@@ -3,6 +3,7 @@ package com.celestia;
 import com.celestia.advancement.ModAdvancements;
 import com.celestia.block.ModBlocks;
 import com.celestia.command.ModCommands;
+import com.celestia.ritual.StarRituals;
 import com.celestia.item.ModItemGroup;
 import com.celestia.fluid.ModFluids;
 import com.celestia.entity.ModEntities;
@@ -28,5 +29,6 @@ public class CelestiaMod implements ModInitializer {
         ModWorldGen.init();
         ModNetworking.init();
         ModAdvancements.init();
+        StarRituals.init();
     }
 }

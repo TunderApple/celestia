@@ -2,6 +2,9 @@ package com.celestia.client.render;
 
 import com.celestia.client.CelestiaClient;
 import com.celestia.client.model.AlicornModel;
+import com.celestia.client.model.AstraDragonModel;
+import com.celestia.entity.AstraDragonEntity;
+import net.minecraft.client.util.math.MatrixStack;
 import com.celestia.client.model.ArnyangModel;
 import com.celestia.client.model.PegasusModel;
 import com.celestia.client.model.UnicornModel;
@@ -69,6 +72,25 @@ public final class CelestialHorseRenderers {
 
         @Override
         public Identifier getTexture(ArnyangEntity entity) {
+            return TEX;
+        }
+    }
+
+    public static class AstraDragon extends MobEntityRenderer<AstraDragonEntity, AstraDragonModel<AstraDragonEntity>> {
+        private static final Identifier TEX = Identifier.of("celestia", "textures/entity/astra_dragon.png");
+
+        public AstraDragon(EntityRendererFactory.Context ctx) {
+            super(ctx, new AstraDragonModel<>(ctx.getPart(CelestiaClient.ASTRA_LAYER)), 2.5f);
+            this.addFeature(new Glow<>(this, Identifier.of("celestia", "textures/entity/astra_dragon_glow.png")));
+        }
+
+        @Override
+        protected void scale(AstraDragonEntity entity, MatrixStack matrices, float amount) {
+            matrices.scale(2.0f, 2.0f, 2.0f);                        // model is built at half size
+        }
+
+        @Override
+        public Identifier getTexture(AstraDragonEntity entity) {
             return TEX;
         }
     }

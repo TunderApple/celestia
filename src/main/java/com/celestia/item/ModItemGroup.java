@@ -20,6 +20,8 @@ public final class ModItemGroup {
     public static final Item ALICORN_SPAWN_EGG = egg("alicorn_spawn_egg", new SpawnEggItem(ModEntities.ALICORN, 0xD9C8FF, 0xF0C66A, new Item.Settings()));
     public static final Item ARNYANG_SPAWN_EGG = egg("arnyang_spawn_egg", new SpawnEggItem(ModEntities.ARNYANG, 0xFFFFFF, 0x6FC0F5, new Item.Settings()));
 
+    public static final Item ASTRA_DRAGON_SPAWN_EGG = egg("astra_dragon_spawn_egg", new SpawnEggItem(ModEntities.ASTRA_DRAGON, 0x3A1A7A, 0xFFE66A, new Item.Settings()));
+
     public static final ItemGroup CELESTIA = Registry.register(Registries.ITEM_GROUP, Identifier.of("celestia", "main"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItems.EVERYS))
@@ -30,12 +32,14 @@ public final class ModItemGroup {
                         e.add(PEGASUS_SPAWN_EGG);
                         e.add(ALICORN_SPAWN_EGG);
                         e.add(ARNYANG_SPAWN_EGG);
+                        e.add(ASTRA_DRAGON_SPAWN_EGG);
                         // items
                         e.add(ModItems.STAR_DUST);
                         e.add(ModItems.STAR_SHARD);
                         e.add(ModItems.UNICORN_HORN);
                         e.add(ModItems.PEGASUS_FEATHER);
                         e.add(ModItems.EVERYS);
+                        e.add(ModItems.ASTRA_SCALE);
                         e.add(ModItems.STAR_FRUIT);
                         e.add(ModItems.STARLIGHT_BUCKET);
                         // blocks

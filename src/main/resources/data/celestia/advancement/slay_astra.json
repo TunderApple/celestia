@@ -1,0 +1,37 @@
+{
+  "parent": "celestia:everys",
+  "display": {
+    "icon": {
+      "id": "celestia:astra_scale"
+    },
+    "title": {
+      "text": "보랏빛 하늘을 되찾다"
+    },
+    "description": {
+      "text": "보랏빛 별의 용 아스트라를 쓰러뜨리기"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "celestia:astra_dragon"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "celestia:everys",
+  "display": {
+    "icon": {
+      "id": "celestia:star_altar"
+    },
+    "title": {
+      "text": "별을 깨우는 자"
+    },
+    "description": {
+      "text": "별의 제단에 Everys를 바치기"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "celestia:star_altar"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "celestia:everys"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

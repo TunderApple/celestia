@@ -4,6 +4,7 @@ import org.lwjgl.glfw.GLFW;
 
 import com.celestia.block.ModBlocks;
 import com.celestia.client.model.AlicornModel;
+import com.celestia.client.model.AstraDragonModel;
 import com.celestia.client.model.ArnyangModel;
 import com.celestia.fluid.ModFluids;
 import com.celestia.client.model.PegasusModel;
@@ -36,6 +37,8 @@ public class CelestiaClient implements ClientModInitializer {
 
     public static final EntityModelLayer ARNYANG_LAYER = new EntityModelLayer(Identifier.of("celestia", "arnyang"), "main");
 
+    public static final EntityModelLayer ASTRA_LAYER = new EntityModelLayer(Identifier.of("celestia", "astra_dragon"), "main");
+
     public static KeyBinding DASH_KEY;
 
     @Override
@@ -57,6 +60,9 @@ public class CelestiaClient implements ClientModInitializer {
                 new SimpleFluidRenderHandler(Identifier.of("minecraft", "block/water_still"),
                         Identifier.of("minecraft", "block/water_flow"), 0xB8A6FF));
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.STILL_STARLIGHT, ModFluids.FLOWING_STARLIGHT);
+
+        EntityModelLayerRegistry.registerModelLayer(ASTRA_LAYER, AstraDragonModel::getTexturedModelData);
+        EntityRendererRegistry.register(ModEntities.ASTRA_DRAGON, CelestialHorseRenderers.AstraDragon::new);
 
         DASH_KEY = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.celestia.unicorn_dash", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_G, "category.celestia"));

@@ -25,6 +25,11 @@ public final class ModEntities {
             EntityType.Builder.create(ArnyangEntity::new, SpawnGroup.AMBIENT)
                     .dimensions(0.7f, 1.0f).eyeHeight(0.75f).maxTrackingRange(8).build("arnyang"));
 
+    /** Boss: Astra, the Violet Star Dragon (summoned at the Star Altar). */
+    public static final EntityType<AstraDragonEntity> ASTRA_DRAGON = register("astra_dragon",
+            EntityType.Builder.create(AstraDragonEntity::new, SpawnGroup.MONSTER)
+                    .dimensions(4.0f, 3.0f).eyeHeight(2.2f).makeFireImmune().maxTrackingRange(16).build("astra_dragon"));
+
     /** Breeding-only hybrid: no BiomeModifications spawn is ever added for it. */
     public static final EntityType<AlicornEntity> ALICORN = register("alicorn",
             EntityType.Builder.create(AlicornEntity::new, SpawnGroup.CREATURE)
@@ -35,6 +40,7 @@ public final class ModEntities {
     }
 
     public static void init() {
+        FabricDefaultAttributeRegistry.register(ASTRA_DRAGON, AstraDragonEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(ARNYANG, ArnyangEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(UNICORN, AbstractHorseEntity.createBaseHorseAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 30.0)

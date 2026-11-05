@@ -33,6 +33,9 @@ public final class ModItems {
     public static final Item STARLIGHT_BUCKET = register("starlight_bucket",
             new BucketItem(ModFluids.STILL_STARLIGHT, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
+    /** Trophy dropped by Astra when slain by a player. */
+    public static final Item ASTRA_SCALE = register("astra_scale", new Item(new Item.Settings().rarity(Rarity.EPIC).fireproof()));
+
     // advancement icons (not obtainable in survival)
     public static final Item ICON_STELLIVE = register("icon_stellive", new Item(new Item.Settings()));
     public static final Item ICON_ARNYANG = register("icon_arnyang", new Item(new Item.Settings()));
