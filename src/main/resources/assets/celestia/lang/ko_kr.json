@@ -37,5 +37,7 @@
   "item.celestia.unicorn_spawn_egg": "유니콘 생성 알",
   "item.celestia.pegasus_spawn_egg": "페가수스 생성 알",
   "item.celestia.alicorn_spawn_egg": "알리콘 생성 알",
-  "item.celestia.arnyang_spawn_egg": "아르냥 생성 알"
+  "item.celestia.arnyang_spawn_egg": "아르냥 생성 알",
+  "block.celestia.twilight_bricks": "황혼석 벽돌",
+  "block.celestia.star_altar": "별의 제단"
 }

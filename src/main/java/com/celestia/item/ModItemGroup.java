@@ -42,6 +42,8 @@ public final class ModItemGroup {
                         e.add(ModBlocks.STAR_SHARD_ORE);
                         e.add(ModBlocks.STAR_SHARD_BLOCK);
                         e.add(ModBlocks.TWILIGHT_STONE);
+                        e.add(ModBlocks.TWILIGHT_BRICKS);
+                        e.add(ModBlocks.STAR_ALTAR);
                         e.add(ModBlocks.NIGHT_SOIL);
                         e.add(ModBlocks.STAR_MOSS);
                         e.add(ModBlocks.STAR_FARMLAND);

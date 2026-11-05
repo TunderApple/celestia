@@ -37,5 +37,7 @@
   "item.celestia.unicorn_spawn_egg": "Unicorn Spawn Egg",
   "item.celestia.pegasus_spawn_egg": "Pegasus Spawn Egg",
   "item.celestia.alicorn_spawn_egg": "Alicorn Spawn Egg",
-  "item.celestia.arnyang_spawn_egg": "Arnyang Spawn Egg"
+  "item.celestia.arnyang_spawn_egg": "Arnyang Spawn Egg",
+  "block.celestia.twilight_bricks": "Twilight Bricks",
+  "block.celestia.star_altar": "Star Altar"
 }

@@ -41,6 +41,12 @@ public final class ModBlocks {
     public static final Block STAR_CRYSTAL = register("star_crystal", new AmethystClusterBlock(7.0f, 3.0f,
             AbstractBlock.Settings.copy(Blocks.AMETHYST_CLUSTER).luminance(s -> 10)));
 
+    public static final Block TWILIGHT_BRICKS = register("twilight_bricks", new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS)
+            .mapColor(MapColor.BLUE)));
+    /** Star Altar: heart of the Star Tower. Glows; very hard to break. */
+    public static final Block STAR_ALTAR = register("star_altar", new Block(AbstractBlock.Settings.copy(Blocks.STONE_BRICKS)
+            .mapColor(MapColor.PURPLE).strength(50.0f, 1200.0f).luminance(s -> 12)));
+
     // ---------------------------------------------------------------- Star Farm plants
     public static final Block BLOOM_STEM = register("bloom_stem", new PillarBlock(AbstractBlock.Settings.copy(Blocks.MUSHROOM_STEM)
             .mapColor(MapColor.CYAN)));

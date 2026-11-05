@@ -50,7 +50,9 @@
     [],
     [],
     [],
-    [],
+    [
+      "celestia:star_tower"
+    ],
     [],
     [
       "minecraft:ore_coal_lower",

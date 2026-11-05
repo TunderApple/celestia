@@ -1,0 +1,9 @@
+{
+  "feature": "celestia:star_tower",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 24
+    }
+  ]
+}
