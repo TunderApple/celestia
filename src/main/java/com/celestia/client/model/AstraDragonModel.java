@@ -12,7 +12,7 @@ import net.minecraft.client.model.TexturedModelData;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.util.math.MathHelper;
 
-/** Huya, the Violet Star Dragon. Half-scale geometry; the renderer scales it by 2. Texture image is 4x denser than the declared size. (512x128 texture) */
+/** Daemaryong (대마룡). Half-scale geometry; the renderer scales it by 2. Texture image is 4x denser than the declared size. (512x128 texture) */
 public class AstraDragonModel<T extends AstraDragonEntity> extends SinglePartEntityModel<T> {
     private final ModelPart root, body, jaw, head;
     private final ModelPart[] neck = new ModelPart[6];

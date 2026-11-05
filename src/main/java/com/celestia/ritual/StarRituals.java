@@ -27,7 +27,7 @@ import net.minecraft.util.math.Vec3d;
 /**
  * The summoning ritual started by using Everys on the Star Altar. Lasts 5 seconds:
  * a spiral of stardust closes in and rises, chimes speed up, a shock ring bursts out,
- * lightning strikes the altar and Huya, the Violet Star Dragon, appears above it.
+ * lightning strikes the altar and Daemaryong (대마룡), appears above it.
  */
 public final class StarRituals {
     public static final int DURATION = 100;

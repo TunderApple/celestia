@@ -46,10 +46,10 @@
   "block.celestia.twilight_pillar": "Twilight Pillar",
   "block.celestia.twilight_brick_stairs": "Twilight Brick Stairs",
   "block.celestia.twilight_brick_slab": "Twilight Brick Slab",
-  "entity.celestia.astra_dragon": "Huya, the Violet Star Dragon",
-  "item.celestia.astra_dragon_spawn_egg": "Huya Spawn Egg",
-  "item.celestia.astra_scale": "Huya's Star Scale",
+  "entity.celestia.astra_dragon": "Daemaryong",
+  "item.celestia.astra_dragon_spawn_egg": "Daemaryong Spawn Egg",
+  "item.celestia.astra_scale": "Daemaryong's Star Scale",
   "ritual.celestia.start": "The altar answers Everys... the stars gather",
-  "ritual.celestia.awaken": "The Violet Star Dragon has awakened!",
+  "ritual.celestia.awaken": "Daemaryong has awakened!",
   "ritual.celestia.busy": "The altar is still full of starlight"
 }
