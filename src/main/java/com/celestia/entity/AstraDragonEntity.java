@@ -34,7 +34,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 /**
- * Huya, the Violet Star Dragon. Summoned at the Star Altar with Everys.
+ * Huya, the Violet Star Dragon - a star-dragon girl. Summoned at the Star Altar with Everys.
  * Flies (passes through blocks like the Ender Dragon) and circles its altar, then attacks:
  *  - BREATH: hovers, opens its jaw and spits purple dragon-breath fireballs
  *  - DIVE:   charges straight at a player, hitting everything it touches
@@ -127,7 +127,7 @@ public class AstraDragonEntity extends HostileEntity {
             this.jaw += (want - this.jaw) * 0.25f;
             if (this.random.nextInt(3) == 0) {          // stardust trailing from the wings
                 double a = this.random.nextDouble() * Math.PI * 2;
-                this.getWorld().addParticle(ParticleTypes.END_ROD, this.getX() + Math.cos(a) * 5, this.getY() + 1.5,
+                this.getWorld().addParticle(ParticleTypes.END_ROD, this.getX() + Math.cos(a) * 2, this.getY() + 1.5,
                         this.getZ() + Math.sin(a) * 5, 0, -0.03, 0);
             }
         }
@@ -223,7 +223,7 @@ public class AstraDragonEntity extends HostileEntity {
         this.setVelocity(this.getVelocity().multiply(0.8));
         int shots = this.phaseTwo ? 3 : 1;
         if (this.stateTicks >= 20 && this.stateTicks < 20 + shots * 8 && (this.stateTicks - 20) % 8 == 0) {
-            Vec3d mouth = this.getPos().add(Vec3d.fromPolar(0, this.getYaw()).multiply(5)).add(0, 2, 0);
+            Vec3d mouth = this.getPos().add(Vec3d.fromPolar(0, this.getYaw()).multiply(1.2)).add(0, 2.2, 0);   // between her raised hands
             Vec3d dir = target.getEyePos().subtract(mouth).normalize();
             DragonFireballEntity ball = new DragonFireballEntity(world, this, dir);
             ball.refreshPositionAndAngles(mouth.x, mouth.y, mouth.z, 0, 0);
@@ -330,7 +330,7 @@ public class AstraDragonEntity extends HostileEntity {
 
     @Override
     public Box getVisibilityBoundingBox() {
-        return this.getBoundingBox().expand(10.0, 4.0, 10.0);  // wings are much wider than the hitbox
+        return this.getBoundingBox().expand(3.0, 1.0, 3.0);    // wings and halo reach past the hitbox
     }
 
     @Override
