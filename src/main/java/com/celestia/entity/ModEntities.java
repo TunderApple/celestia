@@ -28,7 +28,7 @@ public final class ModEntities {
     /** Boss: Huya, the Violet Star Dragon (summoned at the Star Altar). */
     public static final EntityType<AstraDragonEntity> ASTRA_DRAGON = register("astra_dragon",
             EntityType.Builder.create(AstraDragonEntity::new, SpawnGroup.MONSTER)
-                    .dimensions(1.2f, 3.0f).eyeHeight(2.6f).makeFireImmune().maxTrackingRange(16).build("astra_dragon"));
+                    .dimensions(4.0f, 3.0f).eyeHeight(2.2f).makeFireImmune().maxTrackingRange(16).build("astra_dragon"));
 
     /** Breeding-only hybrid: no BiomeModifications spawn is ever added for it. */
     public static final EntityType<AlicornEntity> ALICORN = register("alicorn",

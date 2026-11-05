@@ -80,13 +80,13 @@ public final class CelestialHorseRenderers {
         private static final Identifier TEX = Identifier.of("celestia", "textures/entity/astra_dragon.png");
 
         public AstraDragon(EntityRendererFactory.Context ctx) {
-            super(ctx, new AstraDragonModel<>(ctx.getPart(CelestiaClient.ASTRA_LAYER)), 1.0f);
+            super(ctx, new AstraDragonModel<>(ctx.getPart(CelestiaClient.ASTRA_LAYER)), 2.5f);
             this.addFeature(new Glow<>(this, Identifier.of("celestia", "textures/entity/astra_dragon_glow.png")));
         }
 
         @Override
         protected void scale(AstraDragonEntity entity, MatrixStack matrices, float amount) {
-            matrices.scale(1.5f, 1.5f, 1.5f);                        // a towering 3-block-tall boss
+            matrices.scale(2.0f, 2.0f, 2.0f);                        // model is built at half size
         }
 
         @Override
